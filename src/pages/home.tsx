@@ -1,5 +1,6 @@
 // import Header from "../components/header";
-import MainImg from "../components/MainImg";
+// import MainImg from "../components/MainImg";
+import BanUnderGrid from "../components/BanUnderGrid";
 import Grid from "../components/grid";
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
       {/* <Header /> */}
       {/* <MainImg /> */}
       <Grid />
+      <BanUnderGrid />
     </div>
   );
 }

@@ -11,6 +11,7 @@ export default {
         hoverGreen: '#e2f5f2',
         borderGray: '#C7C7C7',
         newGreen: '#16B198',
+        BanUndGrdGreen: "#16B198E5",
         newDarkGray: '#888888',
         hoverGray: '#9B9B9B',
         regularText: '#333333'

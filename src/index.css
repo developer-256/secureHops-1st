@@ -34,3 +34,11 @@
             scrollbar-width: none;  /* Firefox */
       }
     }
+
+    @media (min-width: 1440px) {
+      .fixWidth {
+        padding-left: calc((100vw - 1440px) / 2);
+        padding-right: calc((100vw - 1440px) / 2);
+      }
+    }
+    
