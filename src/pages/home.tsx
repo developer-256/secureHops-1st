@@ -1,7 +1,8 @@
 // import Header from "../components/header";
 // import MainImg from "../components/MainImg";
-import BanUnderGrid from "../components/BanUnderGrid";
 import Grid from "../components/grid";
+import BanUnderGrid from "../components/BanUnderGrid";
+import Footer from "../components/footer";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       {/* <MainImg /> */}
       <Grid />
       <BanUnderGrid />
+      <Footer />
     </div>
   );
 }

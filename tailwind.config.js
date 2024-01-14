@@ -18,7 +18,8 @@ export default {
       },
       fontFamily: {
         'Outfit': ['Outfit', 'sans-serif'], /*second one is for case when 1st is not supported*/
-      }
+      },
+      
     },
   },
   plugins: [],
