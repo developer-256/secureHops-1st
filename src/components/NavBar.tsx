@@ -31,6 +31,7 @@ function NavBar() {
   const toNotHover = () => {
     setArrow(navArrow);
   };
+  const newClass = `text-hoverGray`;
 
   return (
     <ul className="sticky top-12 mx-auto flex justify-between items-center rounded-full py-3 px-16 gap-10 border border-navGray text-regularText text-[15px] font-medium max-w-[600px] z-50 bg-white/40 backdrop-blur-[6px] shadow-md">
@@ -45,7 +46,9 @@ function NavBar() {
 
       <li className="cursor-pointer group/li">
         <div className="overflow-hidden h-[22.5px]">
-          <div className="flex flex-col group-hover/li:-translate-y-[23px] transition-[transform_ease_600] duration-500">
+          <div
+            className={`flex flex-col group-hover/li:-translate-y-[23px] transition-[transform_ease_600] duration-500`}
+          >
             <span>About</span>
             <span className="text-hoverGray">About</span>
           </div>
