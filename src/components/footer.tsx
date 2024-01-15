@@ -71,7 +71,7 @@ function Footer() {
         </ul>
       </div>
       <div className="border border-t-regularText mx-3 md:mx-12 "></div>
-      <p className="text-center py-5 text-regularText font-medium">
+      <p className="text-center py-5 text-regularText">
         Copyright © 2024 Securehops | All Right Reserved
       </p>
     </div>
