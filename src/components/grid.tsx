@@ -17,9 +17,11 @@ function Grid() {
 
   // grid-cols-24 is a custom function in index.css
   return (
-    <div className="flex flex-col items-center bg-newGray px-3 md:px-12 py-[100px]">
+    <div className="bg-newGray px-3 md:px-12 py-[100px]">
       <div className="flex flex-col items-center pb-[40px] pt-5">
-        <h1 className="text-newGreen font-bold text-[40px]">Our Services</h1>
+        <h1 className="text-newGreen text-center font-bold text-[40px]">
+          Our Services
+        </h1>
         <p className="max-w-[583px] text-center pt-2 leading-5 text-regularText">
           We have the expertise to ensure that your network infrastructure is
           secure, efficient, and ready to meet the challenges of the future.

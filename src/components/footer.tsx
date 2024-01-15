@@ -4,7 +4,7 @@ import FooterArrow from "../assets/svg/footerArrow.svg";
 function Footer() {
   return (
     <div className="bg-newGray">
-      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[3fr_1.5fr_3fr_3fr] px-3 md:px-12 pt-[100px] pb-[60px] text-regularText">
+      <div className=" grid grid-cols-1 lg:grid-cols-[3fr_1.5fr_3fr_3fr] px-3 md:px-12 pt-[100px] pb-[60px] text-regularText">
         <ul>
           <img src={FooterLogo} />
           <p className="max-w-[300px] my-3 leading-5">
