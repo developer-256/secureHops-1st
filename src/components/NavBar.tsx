@@ -34,10 +34,24 @@ function NavBar() {
 
   return (
     <ul className="sticky top-12 mx-auto flex justify-between items-center rounded-full py-3 px-16 gap-10 border border-navGray text-regularText text-[15px] font-medium max-w-[600px] z-50 bg-white/40 backdrop-blur-[6px] shadow-md">
-      <li className="md:hover:text-hoverGray text-hoverGray cursor-pointer">
-        Home
+      <li className="text-hoverGray cursor-pointer group/li">
+        <div className="overflow-hidden h-[22.5px]">
+          <div className="flex flex-col group-hover/li:-translate-y-[23px] transition-[transform_ease_600] duration-500">
+            <span>Home</span>
+            <span className="text-hoverGray">Home</span>
+          </div>
+        </div>
       </li>
-      <li className="md:hover:text-hoverGray cursor-pointer">About</li>
+
+      <li className="cursor-pointer group/li">
+        <div className="overflow-hidden h-[22.5px]">
+          <div className="flex flex-col group-hover/li:-translate-y-[23px] transition-[transform_ease_600] duration-500">
+            <span>About</span>
+            <span className="text-hoverGray">About</span>
+          </div>
+        </div>
+      </li>
+
       <li
         className="md:hover:text-hoverGray flex items-center gap-2 cursor-pointer group/service"
         onMouseOver={toHover}
@@ -48,8 +62,24 @@ function NavBar() {
           {arrow}
         </span>
       </li>
-      <li className="md:hover:text-hoverGray cursor-pointer">Blogs</li>
-      <li className="md:hover:text-hoverGray cursor-pointer">Contact US</li>
+
+      <li className="cursor-pointer group/li">
+        <div className="overflow-hidden h-[22.5px]">
+          <div className="flex flex-col group-hover/li:-translate-y-[23px] transition-[transform_ease_600] duration-500">
+            <span>Blogs</span>
+            <span className="text-hoverGray">Blogs</span>
+          </div>
+        </div>
+      </li>
+
+      <li className="cursor-pointer group/li">
+        <div className="overflow-hidden h-[22.5px]">
+          <div className="flex flex-col group-hover/li:-translate-y-[23px] transition-[transform_ease_600] duration-500">
+            <span>Contact Us</span>
+            <span className="text-hoverGray">Contact Us</span>
+          </div>
+        </div>
+      </li>
     </ul>
   );
 }
